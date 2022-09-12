@@ -4,8 +4,70 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "c3679652bb4a2976e9b6959e4fd1a7ab",
     "packages": [
+        {
+            "name": "agenciamav/laravel-ifood",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agenciamav/laravel-ifood.git",
+                "reference": "772ecdf3ba10983068ec8d6420b160655dac33eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agenciamav/laravel-ifood/zipball/772ecdf3ba10983068ec8d6420b160655dac33eb",
+                "reference": "772ecdf3ba10983068ec8d6420b160655dac33eb",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.3",
+                "illuminate/support": "^8.0",
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Agenciamav\\LaravelIfood\\LaravelIfoodServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Agenciamav\\LaravelIfood\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luciano Tonet",
+                    "email": "agenciamav@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pacote Laravel para integração com as novas APIs do Ifood.",
+            "homepage": "https://github.com/agenciamav/laravel-ifood",
+            "keywords": [
+                "agenciamav",
+                "ifood",
+                "laravel",
+                "laravel-ifood",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/agenciamav/laravel-ifood/issues",
+                "source": "https://github.com/agenciamav/laravel-ifood/tree/v1.0.2"
+            },
+            "time": "2021-08-28T08:15:28+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
